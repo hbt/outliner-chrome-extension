@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "index.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon32.png",
+      "default_title": "Outline"
+   },
+   "description": "Outline is a free service that removes the clutter from news articles so you can read and annotate without distractions.",
+   "homepage_url": "https://outline.com",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "32": "img/icon32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnDGwsmYMwutPPfuV4EgfaroRzwGdzrHRrfmAlh7RoSlEWqbUX3XeAeTn8xw+yAjqEtu5F7rDXsaziCDLI69mtqspYiESr8PSeN9vVjei/FJpxkV0S/3rzl6fuRzTScPR98DU51lklCdTp7r60myx/iZKU7vTWJ2bydxDozuImj09r6rSxwLgZ1XDwEkmcP6S9r258IySQopPBJs2hqnaLdpDYa52Ku6kfj28OQPqjgWeznzEIk/yrM8y1qmkArBcJp/zvrFeyyOEqsIYi2QR403xS5ivj092U8RyKN/743WEzbLVPXrOjzBAYefxdBnQTnD1dnv34yqJ0DKW1JC0kwIDAQAB",
+   "manifest_version": 2,
+   "name": "Outline: Read & annotate without distractions",
+   "permissions": [ "activeTab" ],
+   "short_name": "Outline",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.6",
+   "web_accessible_resources": [ "img/outline.png" ]
+}
